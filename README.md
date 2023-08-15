@@ -5,3 +5,6 @@ Ezone-css is a library that provides css style utilities
 ```sh
 npm i ezone-css
 ```
+
+
+## Usage
