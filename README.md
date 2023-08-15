@@ -8,7 +8,7 @@ npm i ezone-css
 ```
 or using git clone
 ```sh
-git clone 
+git clone git@github.com:alirfanyasin/ezone-css.git
 ```
 
 
