@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --white-color : #ffffff;
+  --black-color : #000000;
+  --blue-color : #0055ff;
+
+  --bg-primary : rgb(59 130 246);
+  --bg-secondary : rgb(113 113 122);
+  --bg-success : rgb(34 197 94);
+  --bg-danger : rgb(220 38 38);
+  --bg-warning : rgb(245 158 11);
+  --bg-info : rgb(14 165 233);
+  --bg-light : rgb(229 231 235);
+  --bg-dark : rgb(31 41 55);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Background Color */
+.ez-bg-primary {
+  background-color: var(--bg-primary);
+}
+.ez-bg-secondary {
+  background-color: var(--bg-secondary);
+}
+.ez-bg-success {
+  background-color: var(--bg-success);
+}
+.ez-bg-danger {
+  background-color: var(--bg-danger);
+}
+.ez-bg-warning {
+  background-color: var(--bg-warning);
+}
+.ez-bg-info {
+  background-color: var(--bg-info);
+}
+.ez-bg-light {
+  background-color: var(--bg-light);
+}
+.ez-bg-dark {
+  background-color: var(--bg-dark);
+}
+
+
+/* Button Style */
+.ez-btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.ez-btn-primary {
+  color: var(--white-color);
+  background-color: var(--bg-primary);
+}
+.ez-btn-secondary {
+  color: var(--white-color);
+  background-color: var(--bg-secondary);
+}
+.ez-btn-success {
+  color: var(--white-color);
+  background-color: var(--bg-success);
+}
+.ez-btn-danger {
+  color: var(--white-color);
+  background-color: var(--bg-danger);
+}
+.ez-btn-warning {
+  color: var(--white-color);
+  background-color: var(--bg-warning);
+}
+.ez-btn-info {
+  color: var(--white-color);
+  background-color: var(--bg-info);
+}
+.ez-btn-light {
+  color: var(--black-color);
+  background-color: var(--bg-light);
+}
+.ez-btn-dark {
+  color: var(--white-color);
+  background-color: var(--bg-dark);
+}
+.ez-btn-link {
+  color: var(--blue-color);
+  text-decoration:underline;
+  background: none;
+}
+
+
+
+/* Alert Style */
+.ez-alert {
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-size: 13pt;;
+}
+
+.ez-alert-primary {
+  color: var(--white-color);
+  background-color: var(--bg-primary);
+}
+.ez-alert-secondary {
+  color: var(--white-color);
+  background-color: var(--bg-secondary);
+}
+.ez-alert-success {
+  color: var(--white-color);
+  background-color: var(--bg-success);
+}
+.ez-alert-danger {
+  color: var(--white-color);
+  background-color: var(--bg-danger);
+}
+.ez-alert-warning {
+  color: var(--white-color);
+  background-color: var(--bg-warning);
+}
+.ez-alert-info {
+  color: var(--white-color);
+  background-color: var(--bg-info);
+}
+.ez-alert-light {
+  color: var(--black-color);
+  background-color: var(--bg-light);
+}
+.ez-alert-dark {
+  color: var(--white-color);
+  background-color: var(--bg-dark);
+}
+
+
+
+/* Badge Style */
+.ez-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 8pt;
+}
+
+.ez-badge.ez-bg-primary {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-secondary {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-success {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-danger {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-warning {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-info {
+  color: var(--white-color);
+}
+.ez-badge.ez-bg-light {
+  color: var(--black-color);
+}
+.ez-badge.ez-bg-dark {
+  color: var(--white-color);
+}

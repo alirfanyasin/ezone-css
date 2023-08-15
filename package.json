@@ -1,0 +1,24 @@
+{
+  "name": "ezone-css",
+  "version": "1.0.1",
+  "description": "Library for css style",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirfanyasin/ezone.git"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "ezone-css"
+  ],
+  "author": "Irfan Yasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirfanyasin/ezone/issues"
+  },
+  "homepage": "https://github.com/alirfanyasin/ezone#readme"
+}
