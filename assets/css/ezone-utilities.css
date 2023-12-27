@@ -19,6 +19,45 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Container */
+.ez-container,
+.ez-container-fluid{
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width:576px) {
+    .ez-container{
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .ez-container{
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .ez-container{
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .ez-container{
+        max-width: 1140px
+    }
+}
+
+@media (min-width:1400px) {
+    .ez-container{
+        max-width: 1320px
+    }
+}
 
 /* Background Color */
 .ez-bg-primary {
@@ -53,6 +92,15 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.ez-hover-light:hover {
+    filter: brightness(110%);
+}
+
+.ez-hover-dark:hover {
+    filter: brightness(90%);
 }
 
 .ez-btn-primary {
